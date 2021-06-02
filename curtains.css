@@ -1,0 +1,146 @@
+@font-face{
+    font-family: "Obrazec"; 
+    src: url('./FONTS/Obrazec/Obrazec-2.ttf') format('truetype');
+}
+@font-face{
+    font-family: "Doppelganger"; 
+    src: url('./FONTS/Doppelganger/Doppelganger\ Display.otf') format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+body {
+    /* margin: 0; */
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Obrazec";
+    line-height: 1.2;
+    color: #ffffff;
+    font-size: 2vw;
+}
+
+#canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.text-plane {
+    display: inline-block;
+
+    /* apply negative margins and padding to avoid chars from being cropped */
+    margin: -1em;
+    padding: 1em;
+
+    /* hide the original text content */
+    opacity: 0;
+}
+
+#content {
+    width: 100%;
+    padding: 2.5vw;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+}
+
+#content h1 {
+    text-align: center;
+    font-size: 9em;
+    text-transform: uppercase;
+    /* font-family: "Obrazec";  */
+    font-family: "Doppelganger";
+    color: rgb(255, 254, 254);
+    font-weight: 400;
+    line-height: 0;
+}
+
+#content h2 {
+    /* width: 50%;
+    margin: 15vh 0 15vh 50%; */
+    font-size: 15em;
+    text-transform: uppercase;
+    font-family: "Doppelganger";
+    color: rgb(250, 116, 138);
+    font-weight: 400;
+    line-height: 0;
+
+    margin-top: 80px;
+    text-align: center;
+}
+
+#content nav{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+#content ul{
+    margin-bottom: 0px;
+}
+
+.paragraphe-bio{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 3.2em;
+    width: 300px;
+    margin-top: -50px;
+}
+.paragraphe-work{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 3.2em;
+    width: 300px;
+    margin-top: -50px;
+}
+
+.text-block {
+    width: 50%;
+    margin: 15vh 0;
+}
+
+#scroll {
+    margin-left: 25%;
+}
+
+#lipsum {
+    margin-left: 50%;
+}
+
+/* ============================ */
+
+@media screen and (min-width: 768px){
+    #content nav{
+        font-size: 1.1em;
+    }
+    #content ul{
+        margin-bottom: 10px;
+    }
+
+    #content h1 {
+        font-size: 9em; 
+    }
+
+    #content .front{
+        text-align: right;
+    }
+    #content .dev{
+        text-align: left;
+    }
+
+    #content h2{
+        margin-top: 300px;
+    }
+    .paragraphe-bio{
+        font-size: 1.1em;
+        width: 900px;
+        margin-top: -200px;
+        margin-left: 100px;
+    }
+    .paragraphe-work{
+        font-size: 1.1em;
+        width: 900px;
+        margin-top: -200px;
+        /* margin-left: 100px; */
+        margin-left: auto;
+    }
+}

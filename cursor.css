@@ -1,0 +1,24 @@
+.cursor {
+    box-sizing: border-box;
+    width: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 999999;
+    transform-origin: 50%;
+    transform: translate3d(-50%, -50%, 0);
+  }
+  .cursor > div {
+    mix-blend-mode: exclusion;
+  }
+  .cursor .cursor-follow {
+    transform-origin: 50%;
+  }
+  .cursor svg {
+    display: block;
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 1;
+    stroke-miterlimit: miter;
+  }
