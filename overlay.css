@@ -117,13 +117,13 @@ body::-webkit-scrollbar {
     height: 100vh;
 }
 
+@media (orientation: portrait){
+    .line-top{
+        display: none
+    }
+}
 .line-top{
     border-top: 1px white solid;
-    margin-left: -100px;
-    margin-right: -100px;
-}
-.line-bottom{
-    border-bottom: 1px white solid;
     margin-left: -100px;
     margin-right: -100px;
 }

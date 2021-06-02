@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="locomotive-scroll.css">
     <link rel="stylesheet" href="curtains.css">
+    <link rel="stylesheet" href="circle.css">
     <link rel="stylesheet" href="cursor.css">
     <link rel="stylesheet" href="overlay.css">
     <title>Document</title>
@@ -142,6 +143,25 @@
                 </div>
 
 
+                <!-- CERCLE DYNAMIQUE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+                <svg class="svg" width="300" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134 136">
+                    <defs>
+                      <path ref="circlePath" id="circlePath" d="M7,69a60,60 0 1,0 120,0a60,60 0 1,0 -120,0"></path>
+                    </defs>
+                    <g>
+                      <!-- <text x="50%" y="50%" class="button-letter-center" id="letter">A</text> -->
+                
+                      <text ref="textCurved" id="textCurved" fill="#000">
+                        <textPath side="right" ref="pathTextCurved" id="pathTextCurved" xlink:href="#circlePath">
+                          <tspan class="button-curved-en">• Let's work</tspan>
+                          <tspan class="button-curved-jpn">together</tspan>
+                        </textPath>
+                      </text>
+                
+                      <circle id="circle" ref="circle" cx="67" cy="69" r="60" fill="transparent"></circle>
+                    </g>
+                </svg>
+                <!-- ================================================= -->
 
 
             </div>
@@ -199,7 +219,7 @@
 	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
 
     <script src="cursor.js"></script>
-    
+    <script src="circle.js"></script>
     <script src="app.js"></script>
 </body>
 </html>

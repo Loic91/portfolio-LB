@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+#text,
+#letter,
+#pathTextCurved {
+  pointer-events: none;
+}
+
+/* #letter {
+  text-anchor: middle;
+  alignment-baseline: central;
+  font-size: 50px;
+  font-weight: 100;
+} */
+.svg{
+    width: 150px;
+}
+#circle{
+    margin-left: 250px;
+}
+
+#letter,
+#textCurved {
+    font-family: 'Nanum Gothic', sans-serif;
+    fill: #ffffff;
+}
+
+#textCurved {
+    font-size: 2em;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+#border {
+  fill: #e27c7c;
+}
+
+@media screen and (min-width: 768px){
+    #textCurved{
+        font-size: 0.7em;
+    }
+}

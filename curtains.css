@@ -132,14 +132,14 @@ body {
     }
     .paragraphe-bio{
         font-size: 1.1em;
-        width: 900px;
-        margin-top: -200px;
-        margin-left: 100px;
+        width: 800px;
+        margin-top: -150px;
+        margin-left: 10px;
     }
     .paragraphe-work{
         font-size: 1.1em;
-        width: 900px;
-        margin-top: -200px;
+        width: 800px;
+        margin-top: -150px;
         /* margin-left: 100px; */
         margin-left: auto;
     }

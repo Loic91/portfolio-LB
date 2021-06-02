@@ -1,4 +1,11 @@
-.cursor {
+@media (orientation: portrait){
+  .cursor {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .cursor {
     box-sizing: border-box;
     width: 40px;
     position: fixed;
@@ -22,3 +29,4 @@
     stroke-width: 1;
     stroke-miterlimit: miter;
   }
+}
