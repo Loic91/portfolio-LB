@@ -21,6 +21,8 @@ body {
     line-height: 1.2;
     color: #ffffff;
     font-size: 2vw;
+
+    overflow-x: hidden;
 }
 
 #canvas {
