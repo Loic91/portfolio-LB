@@ -22,7 +22,11 @@ body {
     color: #ffffff;
     font-size: 2vw;
 
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+}
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
 }
 
 #canvas {
