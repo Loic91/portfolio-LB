@@ -13,18 +13,19 @@
   font-weight: 100;
 } */
 .svg{
-    width: 150px;
+    width: 250px;
     margin-top: -120px;
-    margin-left: 180px;
+    margin-left: 160px;
 }
-#circle{
-    margin-left: 250px;
-}
+/* #circle{
+    margin-left: auto;
+    margin-right: auto;
+} */
 
 #letter,
 #textCurved {
     font-family: 'Nanum Gothic', sans-serif;
-    fill: #ffffff;
+    fill: #ffffff1c;
 }
 
 #textCurved {
@@ -43,7 +44,8 @@
     }
 
     .svg{
-      margin-top: -200px;
-      margin-left: 150px;
+      width: 600px;
+      margin-top: -400px;
+      margin-left: -200px;
     }
 }
