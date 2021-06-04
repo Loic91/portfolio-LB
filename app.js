@@ -2,8 +2,8 @@
 // OVERLAY
 TweenMax.to(".overlay", 3.5, {
     delay: 3.9,
-    // top: "-100%",
-    right: "-100%",
+    top: "-100%",
+    // right: "-100%",
     ease: Expo.easeInOut
 });
 
