@@ -24,26 +24,26 @@
 body {
     background-color: #f4f75d;
     position: absolute;
-    /* width: 100%;
-    min-height: 100vh; */
+    width: 100%;
+    min-height: 100vh;
     font-family: 'Nanum Gothic', sans-serif;
     line-height: 1.2;
     color: #ffffff;
     /* font-size: 2vw; */
 
-    overflow-x: hidden !important;
-    max-width: 100% !important;
+    /* overflow-x: hidden !important;
+    max-width: 100% !important; */
 }
-body{
+/* body{
     
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-}
+} */
 /* CACHER LA BARRE DE DEFILEMENT */
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
     width: 0 !important;
-}
+} */
 
 
 #canvas {
@@ -58,9 +58,13 @@ body::-webkit-scrollbar {
 .text-plane {
     display: inline-block;
 
-    /* apply negative margins and padding to avoid chars from being cropped */
+    /* appliquer des marges négatives et un remplissage pour éviter que les caractères ne soient rognés */
     margin: -1em;
     padding: 1em;
+
+    margin-right: 0;
+    padding-right: 0;
+    
 
     /* hide the original text content */
     opacity: 0;
