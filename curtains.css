@@ -15,7 +15,7 @@
 
 body {
     position: absolute;
-    /* width: 100%; */
+    width: 100%;
     min-height: 100vh;
     font-family: "Obrazec";
     line-height: 1.2;
@@ -132,14 +132,14 @@ body {
 
 @media screen and (min-width: 769px){
     #content nav{
-        font-size: 0.9em;
+        font-size: 1.9em;
     }
     #content ul{
         margin-bottom: 10px;
     }
 
     #content h1 {
-        font-size: 5.5em; 
+        font-size: 10.5em; 
     }
 
     #content .name{
@@ -167,17 +167,17 @@ body {
     }
 
     #content h2{
-        font-size: 12em;
+        font-size: 15em;
         margin-top: 200px;
     }
     .paragraphe-bio{
-        font-size: 0.9em;
+        font-size: 2.1em;
         width: 800px;
         margin-top: -100px;
         margin-left: 10px;
     }
     .paragraphe-work{
-        font-size: 0.9em;
+        font-size: 1.9em;
         width: 800px;
         margin-top: -100px;
         margin-left: auto;
