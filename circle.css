@@ -9,13 +9,13 @@
 #letter {
   text-anchor: middle;
   alignment-baseline: central;
-  font-size: 0.7em;
+  font-size: 1.2em;
   font-weight: 100;
 }
 .svg{
-    width: 250px;
-    margin-top: -150px;
-    margin-left: 100px;
+    width: 180px;
+    margin-top: -30px;
+    margin-left: 10px;
 }
 /* #circle{
     margin-left: auto;
@@ -25,11 +25,11 @@
 #letter,
 #textCurved {
     font-family: 'Nanum Gothic', sans-serif;
-    fill: #ffffff;
+    fill: #ffffff63;
 }
 
 #textCurved {
-    font-size: 1.5em;
+    font-size: 0.9em;
     font-weight: 100;
     text-transform: uppercase;
 }
@@ -40,12 +40,16 @@
 
 @media screen and (min-width: 768px){
     #textCurved{
-        font-size: 0.7em;
+        font-size: 0.9em;
+    }
+
+    #letter{
+      font-size: 1.2em;
     }
 
     .svg{
       width: 250px;
-      margin-top: -300px;
-      margin-left: 200px;
+      margin-top: -100px;
+      margin-left: 10px;
     }
 }
