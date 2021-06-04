@@ -25,11 +25,11 @@
 #letter,
 #textCurved {
     font-family: 'Nanum Gothic', sans-serif;
-    fill: #ffffff1c;
+    fill: #ffffff;
 }
 
 #textCurved {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 100;
     text-transform: uppercase;
 }
