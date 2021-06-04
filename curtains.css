@@ -24,10 +24,11 @@ body {
 
     overflow-x: hidden !important;
 }
-.container {
+/* .container {
     max-width: 100% !important;
     overflow-x: hidden !important;
-}
+} */
+
 
 #canvas {
     position: fixed;
