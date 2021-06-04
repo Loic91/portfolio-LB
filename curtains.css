@@ -15,7 +15,7 @@
 
 body {
     position: absolute;
-    width: 100%;
+    /* width: 100%; */
     min-height: 100vh;
     font-family: "Obrazec";
     line-height: 1.2;
@@ -23,6 +23,7 @@ body {
     font-size: 2vw;
 
     overflow-x: hidden !important;
+    max-width: 100% !important;
 }
 /* .container {
     max-width: 100% !important;
