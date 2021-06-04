@@ -6,12 +6,12 @@
   pointer-events: none;
 }
 
-/* #letter {
+#letter {
   text-anchor: middle;
   alignment-baseline: central;
-  font-size: 50px;
+  font-size: 0.7em;
   font-weight: 100;
-} */
+}
 .svg{
     width: 250px;
     margin-top: -150px;
