@@ -53,7 +53,7 @@ body::-webkit-scrollbar {
 }
   
 .first span {
-    font-size: 10em;
+    font-size: 6.5em;
     display: inline-block;
     animation: move 3s ease-in-out infinite;
 }
