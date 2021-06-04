@@ -10,25 +10,35 @@
     font-family: "Bigilla"; 
     src: url('./FONTS/Bigilla/Bigilla-Bold.otf') format('opentype');
 }
+@font-face{
+    font-family: "Wayward Sans DCU"; 
+    src: url('./FONTS/Wayward\ Sans\ DCU/WaywardSans-Regular.otf') format('opentype');
+}
+@font-face{
+    font-family: "Bore - FREE"; 
+    src: url('./FONTS/Bore\ -\ FREE/Bore-Regular.otf') format('opentype');
+}
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 
 body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #ff676796; */
+    background-color: rgb(253, 250, 89);
     position: absolute;
-    /* width: 100%; */
+    width: 100%;
     min-height: 100vh;
-    font-family: "Obrazec";
+    font-family: 'Nanum Gothic', sans-serif;
     line-height: 1.2;
-    color: #ffffff;
-    /* font-size: 2vw; */
-
-    overflow-x: hidden !important;
-    max-width: 100% !important;
+    /* color: rgb(143, 0, 0); */
+    color: black;
 }
-/* .container {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-} */
+
+/* CACHER LA BARRE DE DEFILEMENT */
+body::-webkit-scrollbar {
+    width: 0 !important;
+}
 
 
 #canvas {
@@ -43,9 +53,13 @@ body {
 .text-plane {
     display: inline-block;
 
-    /* apply negative margins and padding to avoid chars from being cropped */
+    /* appliquer des marges négatives et un remplissage pour éviter que les caractères ne soient rognés */
     margin: -1em;
     padding: 1em;
+
+    margin-right: 0;
+    padding-right: 0;
+    
 
     /* hide the original text content */
     opacity: 0;
@@ -53,20 +67,27 @@ body {
 
 #content {
     width: 100%;
-    padding: 2.5vw;
+    /* padding: 2.5vw; */
     box-sizing: border-box;
     position: relative;
     z-index: 2;
 }
-
+#content nav {
+    /* color: rgb(143, 0, 0); */
+    color: black;
+    margin: 10px;
+}
 #content h1 {
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
     text-transform: uppercase;
     /* font-family: "Obrazec";  */
     /* font-family: "Doppelganger"; */
-    font-family: "Bigilla";
-    color: rgb(255, 254, 254);
+    /* font-family: "Bigilla"; */
+    /* font-family: "Wayward Sans DCU"; */
+    font-family: "Bore - FREE";
+    /* color: rgb(253, 7, 48); */
+    color: black;
     font-weight: 400;
     line-height: 0;
 }
@@ -78,13 +99,14 @@ body {
 }
 
 #content h2 {
-    /* width: 50%;
-    margin: 15vh 0 15vh 50%; */
+    justify-content: space-between;
     font-size: 6em;
     text-transform: uppercase;
     /* font-family: "Doppelganger"; */
-    font-family: "Bigilla";
-    color: rgb(250, 116, 138);
+    /* font-family: "Bigilla"; */
+    font-family: "Bore - FREE";
+    /* color: rgb(253, 7, 48); */
+    color: black;
     font-weight: 400;
     line-height: 0;
 
@@ -93,26 +115,31 @@ body {
 }
 
 #content nav{
-    font-size: 1.5em;
+    font-size: 1em;
     margin-bottom: 10px;
 }
 #content ul{
     margin-bottom: 0px;
 }
 
+.block-bio{
+    margin-top: -50px;
+}
 .paragraphe-bio{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 1.5em;
     /* width: 300px; */
     justify-content: space-between;
-    margin-top: -50px;
+    margin-top: 50px;
+    margin: 10px;
 }
 .paragraphe-work{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 1.5em;
     /* width: 300px; */
     justify-content: space-between;
-    margin-top: -50px;
+    margin-top: 50px;
+    margin: 10px;
 }
 
 .text-block {
@@ -132,52 +159,54 @@ body {
 
 @media screen and (min-width: 769px){
     #content nav{
-        font-size: 0.9em;
+        font-size: 1.7em;
     }
     #content ul{
         margin-bottom: 10px;
     }
 
     #content h1 {
-        font-size: 5.5em; 
+        font-size: 12em; 
     }
 
     #content .name{
         text-align: center;
     }
     #content .front{
-        text-align: right;
+        text-align: center;
         padding-top: 30px;
-        display: flex;
+        /* display: flex; */
     }
-    .line-front{
-        border-top: 1px white solid;
-        width: 300px;
-        margin-left: auto;
-    }
+    
 
     #content .dev{
-        text-align: left;
+        text-align: center;
         padding-top: 30px;
-        display: flex;
+        /* display: flex; */
     }
-    .line-dev{
-        border-top: 1px white solid;
-        width: 300px;
-    }
+    
 
     #content h2{
-        font-size: 12em;
+        font-size: 20em;
+    }
+    .block-bio{
         margin-top: 200px;
     }
     .paragraphe-bio{
-        font-size: 0.9em;
+        font-size: 2.1em;
         width: 800px;
         margin-top: -100px;
-        margin-left: 10px;
+        margin-left: 20px;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+
+    .block-work{
+        margin-top: 250px;
+        /* display: flex; */
     }
     .paragraphe-work{
-        font-size: 0.9em;
+        font-size: 2.1em;
         width: 800px;
         margin-top: -100px;
         margin-left: auto;
