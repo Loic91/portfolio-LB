@@ -8,7 +8,7 @@ TweenMax.to(".overlay", 3.5, {
 });
 
 
-gsap.to('.box-color', 2.5, {
-    x: '100%',
-    delay: 7.8
-})
+// gsap.to('.box-color', 2.5, {
+//     x: '100%',
+//     delay: 7.8
+// })
