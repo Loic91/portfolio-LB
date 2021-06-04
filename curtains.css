@@ -22,6 +22,8 @@
 
 
 body {
+    margin: 0;
+    padding: 0;
     background-color: #f4f75d;
     position: absolute;
     width: 100%;
@@ -41,9 +43,9 @@ body {
     overflow-x: hidden;
 } */
 /* CACHER LA BARRE DE DEFILEMENT */
-/* body::-webkit-scrollbar {
+body::-webkit-scrollbar {
     width: 0 !important;
-} */
+}
 
 
 #canvas {
