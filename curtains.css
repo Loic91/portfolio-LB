@@ -102,13 +102,15 @@ body {
 .paragraphe-bio{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 3.2em;
-    width: 300px;
+    /* width: 300px; */
+    justify-content: space-between;
     margin-top: -50px;
 }
 .paragraphe-work{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 3.2em;
-    width: 300px;
+    /* width: 300px; */
+    justify-content: space-between;
     margin-top: -50px;
 }
 
