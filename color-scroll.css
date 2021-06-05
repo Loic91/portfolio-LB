@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .scroll{
     width : 100%;
     height: 500px;
@@ -10,4 +11,18 @@
     background-color: rgb(42, 43, 44);
   }
 
+=======
+.scroll{
+    width : 100%;
+    height: 500px;
+    /* display : flex; */
+    justify-content : center;
+    align-items : center;
+    padding : 0;
+    margin : 0;
+    /* background-color : #c0392b; */
+    background-color: rgb(42, 43, 44);
+  }
+
+>>>>>>> 150eb903cee3eb356e6a82113e5c030bac8350a4
   
