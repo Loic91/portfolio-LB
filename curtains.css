@@ -121,7 +121,7 @@ body::-webkit-scrollbar {
 
 #content h3 {
     justify-content: space-between;
-    font-size: 1.6em;
+    /* font-size: 3em; */
     text-transform: uppercase;
     font-family: "Bore - FREE";
     /* color: rgb(253, 7, 48); */
@@ -129,11 +129,31 @@ body::-webkit-scrollbar {
     font-weight: 400;
     line-height: 0;
 
-    /* margin-top: 150px; */
-    /* margin-left: -100px; */
+    margin-left: 15px;
 }
-
-
+#content .projet-one{
+    /* margin-top: 130px; */
+    display: none;
+}
+.container-img{
+    margin-top: -80px;
+}
+.projet-one-mobile{
+    font-size: 3em;
+    text-align: center;
+}
+.name-one{
+    margin-top: 180px;
+}
+.projet-two{
+    display: none;
+}
+.projet-three{
+    display: none;
+}
+.projet-four{
+    display: none;
+}
 
 
 
@@ -231,9 +251,11 @@ body::-webkit-scrollbar {
         font-size: 6em;
     }
     #content .projet-one{
-        margin-left: -550px;
+        margin-top: 200px;
+        /* margin-left: -550px; */
     }
-    /* #content .projet-two{
-        margin-left: -350px;
-    } */
+    .projet-one-mobile{
+        display: none;
+    }
+    
 }
