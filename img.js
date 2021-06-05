@@ -18,8 +18,8 @@ const options = {
         revealAnim.fromTo(
           container,
           {
-            clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)",
-            webkitClipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)"
+            // clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)",
+            // webkitClipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)"
           },
           {
             clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
