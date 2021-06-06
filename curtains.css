@@ -192,6 +192,13 @@ body::-webkit-scrollbar {
 #lipsum {
     margin-left: 50%;
 }
+.paragraphe-projet{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 50px;
+    margin: 10px;
+}
 
 /* ============================ */
 
@@ -249,9 +256,17 @@ body::-webkit-scrollbar {
         margin-top: -100px;
         margin-left: auto;
     }
+    .paragraphe-projet{
+        font-size: 2.1em;
+        width: 800px;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .photos{
         margin-top: 200px;
+        text-align: center;
     }
     .container-img{
         margin-top: -60px;
