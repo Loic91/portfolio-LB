@@ -15,17 +15,20 @@ $(function () {
        else if ($(this).scrollTop() >= 1800 && $(this).scrollTop() <= 2500) {
           $(".scroll").css("background", "#2ecc71").css("transition", "1.5s");
        }
-       else if ($(this).scrollTop() >= 2200 && $(this).scrollTop() <= 2800) {
+       else if ($(this).scrollTop() >= 2600 && $(this).scrollTop() <= 3100) {
          $(".scroll").css("background", "#FB7BEF").css("transition", "1.5s");
       }
-      else if ($(this).scrollTop() >= 2700 && $(this).scrollTop() <= 3200) {
+      else if ($(this).scrollTop() >= 3200 && $(this).scrollTop() <= 3600) {
          $(".scroll").css("background", "#900C3F").css("transition", "1.5s");
       }
-      else if ($(this).scrollTop() >= 3100 && $(this).scrollTop() <= 3700) {
-         $(".scroll").css("background", "#696A6B").css("transition", "1.5s");
+      else if ($(this).scrollTop() >= 3700 && $(this).scrollTop() <= 4200) {
+         $(".scroll").css("background", "#00F7ED").css("transition", "1.5s");
       }
-      else if ($(this).scrollTop() >= 3600 && $(this).scrollTop() <= 4100) {
+      else if ($(this).scrollTop() >= 4300 && $(this).scrollTop() <= 4900) {
          $(".scroll").css("background", "#FF67C5").css("transition", "1.5s");
       }
+      // else if ($(this).scrollTop() >= 4000 && $(this).scrollTop() <= 4600) {
+      //    $(".scroll").css("background", "#68E3CA").css("transition", "1.5s");
+      // }
    });
 });
