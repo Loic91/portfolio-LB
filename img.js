@@ -25,7 +25,7 @@ const options = {
             clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
             webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
             // duration: 1,
-            duration: 0.7,
+            duration: 1.7,
             ease: easeInOut
           }
         );

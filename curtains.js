@@ -133,7 +133,7 @@ window.addEventListener('load', () => {
                                 name: "uScrollStrength",
                                 type: "1f",
                                 // value: 2.5,
-                                value: 1.8,
+                                value: 1.5,
                             },
                         }
                     });
