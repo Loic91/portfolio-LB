@@ -132,7 +132,8 @@ window.addEventListener('load', () => {
                             scrollStrength: {
                                 name: "uScrollStrength",
                                 type: "1f",
-                                value: 2.5,
+                                // value: 2.5,
+                                value: 1.8,
                             },
                         }
                     });
