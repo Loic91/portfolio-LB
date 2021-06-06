@@ -21,8 +21,7 @@ img {
     width: 90%;
     height: 60%;
 
-    margin-top: -150px;
-    z-index: -99;
+    /* margin-top: -150px; */
 }
   
 * {
