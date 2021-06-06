@@ -105,7 +105,7 @@ body::-webkit-scrollbar {
 
 #content h2 {
     justify-content: space-between;
-    font-size: 6em;
+    font-size: 4.73em;
     text-transform: uppercase;
     /* font-family: "Doppelganger"; */
     /* font-family: "Bigilla"; */
@@ -188,6 +188,25 @@ body::-webkit-scrollbar {
     margin: 15vh 0;
 }
 
+
+.block-contact{
+    margin-top: 0px;
+}
+.paragraphe-contact{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.5em;
+    /* width: 300px; */
+    justify-content: space-between;
+    margin-top: 50px;
+    margin: 10px;
+}
+.email{
+    padding-bottom: 100px;
+}
+
+
+
+
 #scroll {
     margin-left: 25%;
 }
@@ -235,10 +254,10 @@ body::-webkit-scrollbar {
     
 
     #content h2{
-        font-size: 20em;
+        font-size: 18em;
     }
     .block-bio{
-        margin-top: 200px;
+        margin-top: 400px;
     }
     .paragraphe-bio{
         font-size: 2.1em;
@@ -282,6 +301,23 @@ body::-webkit-scrollbar {
     } */
     .projet-one-mobile{
         display: none;
+    }
+
+
+    .block-contact{
+        margin-top: 200px;
+    }
+    .paragraphe-contact{
+        font-size: 2.1em;
+        width: 800px;
+        margin-top: -100px;
+        margin-left: 20px;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+
+    .email{
+        margin-top: 50px;
     }
     
 }
