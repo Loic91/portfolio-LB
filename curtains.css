@@ -144,6 +144,9 @@ body::-webkit-scrollbar {
         font-size: 4em;
         text-align: center;
     }
+    .top{
+        margin-top: 150px;
+    }
     .name-one{
         margin-top: 180px;
     }
