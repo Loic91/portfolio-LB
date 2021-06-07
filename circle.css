@@ -15,12 +15,9 @@
 .svg{
     width: 150px;
     margin-top: -15px;
-    margin-left: 10px;
+    margin-left: 220px;
 }
-/* #circle{
-    margin-left: auto;
-    margin-right: auto;
-} */
+
 
 #letter,
 #textCurved {
@@ -50,6 +47,6 @@
     .svg{
       width: 250px;
       margin-top: -100px;
-      margin-left: 10px;
+      margin-left: 150px;
     }
 }

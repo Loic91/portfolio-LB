@@ -18,6 +18,10 @@
     font-family: "Bore - FREE"; 
     src: url('./FONTS/Bore\ -\ FREE/Bore-Regular.otf') format('opentype');
 }
+@font-face{
+    font-family: "Redwing"; 
+    src: url('./FONTS/Redwing/Redwing-Medium.otf') format('opentype');
+}
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 
@@ -83,54 +87,61 @@ body::-webkit-scrollbar {
 }
 
 #content h1 {
-    text-align: center;
-    font-size: 3em;
+    /* text-align: center; */
+    font-size: 4em;
     text-transform: uppercase;
-    /* font-family: "Obrazec";  */
-    /* font-family: "Doppelganger"; */
-    /* font-family: "Bigilla"; */
-    /* font-family: "Wayward Sans DCU"; */
-    font-family: "Bore - FREE";
-    /* color: rgb(253, 7, 48); */
+    font-family: "Redwing";
     color: rgb(250, 246, 21);
     font-weight: 400;
     line-height: 0;
+
+    margin-left: 10px;
 }
 #content .front{
-    padding-top: 10px;
+    padding-top: 20px;
 }
 #content .dev{
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 #content h2 {
     justify-content: space-between;
     font-size: 4.73em;
     text-transform: uppercase;
-    /* font-family: "Doppelganger"; */
-    /* font-family: "Bigilla"; */
-    font-family: "Bore - FREE";
-    /* color: rgb(253, 7, 48); */
+    font-family: "Redwing";
     color: rgb(250, 246, 21);
     font-weight: 400;
     line-height: 0;
 
+    margin-left: 10px;
     margin-top: 150px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 #content h3 {
     justify-content: space-between;
-    /* font-size: 3em; */
     text-transform: uppercase;
-    font-family: "Bore - FREE";
+    font-family: "Redwing"; 
     /* color: rgb(253, 7, 48); */
-    color: #f1edad;
+    /* color: #f1edad; */
     font-weight: 400;
     line-height: 0;
 
-    margin-left: 15px;
+    margin-left: 10px;
 }
+#content .one{
+    color: rgb(236, 233, 233);
+}
+#content .two{
+    color: rgb(236, 233, 233);
+}
+#content .three{
+    color: rgb(236, 233, 233);
+}
+#content .four{
+    color: rgb(236, 233, 233);
+}
+
 #content .projet-one{
     /* margin-top: 130px; */
     display: none;
@@ -141,8 +152,8 @@ body::-webkit-scrollbar {
         margin-top: -80px;
     }
     .projet-one-mobile{
-        font-size: 4em;
-        text-align: center;
+        font-size: 6em;
+        /* text-align: center; */
     }
     .top{
         margin-top: 150px;
@@ -169,16 +180,14 @@ body::-webkit-scrollbar {
 .paragraphe-bio{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 1.5em;
-    /* width: 300px; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-top: 50px;
     margin: 10px;
 }
 .paragraphe-work{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 1.5em;
-    /* width: 300px; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-top: 50px;
     margin: 10px;
 }
@@ -199,32 +208,42 @@ body::-webkit-scrollbar {
 .paragraphe-contact{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 1.5em;
-    /* width: 300px; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-top: 50px;
-    margin: 10px;
+    margin-left: 10px;
 }
 .email{
-    text-align: center;
     margin-top: 50px;
+    margin-left: 10px;
 }
 
 
 .reseau-date{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
+
 .paragraphe-twitter{
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-top: 10px;
-    margin: 10px;
+    /* margin: 10px; */
+}
+.paragraphe-dribbble{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.2em;
+    margin-top: 10px;
+    /* margin: 10px; */
 }
 .paragraphe-behance{
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-top: 10px;
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 .back{
@@ -233,8 +252,8 @@ body::-webkit-scrollbar {
     justify-content: space-between;
 }
 .paragraphe-date{
-    /* font-family: 'Nanum Gothic', sans-serif; */
-    font-family: "Bore - FREE";
+    /* font-family: "Bore - FREE"; */
+    font-family: "Redwing"; 
     font-size: 3.8em;
     /* text-align: right; */
 }
@@ -270,7 +289,7 @@ body::-webkit-scrollbar {
     font-family: 'Nanum Gothic', sans-serif;
     color: #0000009f;
     font-size: 1.5em;
-    text-align: center;
+    /* text-align: center; */
     margin-top: 50px;
     margin: 10px;
 }
@@ -285,23 +304,33 @@ body::-webkit-scrollbar {
         margin-bottom: 10px;
     }
 
-    #content h1 {
-        font-size: 12em; 
+    #content .titre{
+        margin-top: -50px;
     }
+   
+    #content h1 {
+        /* font-size: 12em;  */
+        text-align: center;
+        font-size: 13em;
+    }
+    #content h2{
+        text-align: center;
+    }
+    
 
     #content .name{
         text-align: center;
     }
     #content .front{
         text-align: center;
-        padding-top: 30px;
+        padding-top: 50px;
         /* display: flex; */
     }
     
 
     #content .dev{
         text-align: center;
-        padding-top: 30px;
+        padding-top: 50px;
         /* display: flex; */
     }
     
@@ -310,7 +339,7 @@ body::-webkit-scrollbar {
         font-size: 18em;
     }
     .block-bio{
-        margin-top: 400px;
+        margin-top: 250px;
     }
     .paragraphe-bio{
         font-size: 2.1em;
@@ -352,8 +381,9 @@ body::-webkit-scrollbar {
         margin-top: -60px;
     }
     #content h3{
-        color: rgb(250, 246, 21);
-        font-size: 3.7em;
+        /* color: rgb(250, 246, 21); */
+        /* font-size: 5.7em; */
+        font-size: 6.7em;
     }
     .flex{
         display: flex;
@@ -370,20 +400,23 @@ body::-webkit-scrollbar {
     .paragraphe-contact{
         font-size: 2.1em;
         width: 800px;
-        margin-top: -100px;
+        margin-top: 0px;
         margin-left: 20px;
         text-align: left;
-        /* margin-left: auto;
-        margin-right: auto; */
+
+        margin-left: 50px;
     }
 
     .email{
         margin-top: 50px;
+        margin-left: 50px;
     }
     
     .reseau-date{
         display: inline-block;
-        margin-left: 20px;
+        margin-left: 10px;
+
+        margin-left: 50px;
     }
     .paragraphe-twitter{
         font-family: 'Nanum Gothic', sans-serif;
@@ -395,10 +428,11 @@ body::-webkit-scrollbar {
         font-family: 'Nanum Gothic', sans-serif;
         font-size: 1.5em;
         justify-content: space-between;
-        margin-top: -15px;
+        margin-top: 10px;
     }
     .paragraphe-date{
-        font-family: "Bore - FREE";
+        /* font-family: "Bore - FREE"; */
+        font-family: "Redwing"; 
         font-size: 25em;
     }
 
@@ -406,18 +440,17 @@ body::-webkit-scrollbar {
         display: flex;
         justify-content: space-between;
         margin-top: -100px;
+
+        margin-left: 30px;
     }
-    .top{
-        margin-top: 250px;
-    }
+    
     .date{
-        margin-top: 30px;
+        margin-top: -160px;
     }
     .paragraphe-top{
         font-family: 'Nanum Gothic', sans-serif;
         font-size: 1.5em;
         justify-content: space-between;
         margin-top: 150px;
-        margin-left: 20px;
     }
 }
