@@ -190,7 +190,11 @@ body::-webkit-scrollbar {
 
 
 .block-contact{
+    color: rgb(42, 43, 44);
     margin-top: 0px;
+}
+.contact span{
+    color: rgb(42, 43, 44);
 }
 .paragraphe-contact{
     font-family: 'Nanum Gothic', sans-serif;
