@@ -125,7 +125,7 @@ body::-webkit-scrollbar {
     text-transform: uppercase;
     font-family: "Bore - FREE";
     /* color: rgb(253, 7, 48); */
-    color: rgb(250, 246, 21);
+    color: #f1edad;
     font-weight: 400;
     line-height: 0;
 
@@ -216,6 +216,7 @@ body::-webkit-scrollbar {
 }
 .paragraphe-projet{
     font-family: 'Nanum Gothic', sans-serif;
+    color: #f1edad;
     font-size: 1.5em;
     text-align: center;
     margin-top: 50px;
@@ -282,23 +283,29 @@ body::-webkit-scrollbar {
         font-size: 2.1em;
         width: 800px;
         margin-top: 0px;
-        margin-left: auto;
-        margin-right: auto;
+        /* margin-left: auto;
+        margin-right: auto; */
+        text-align: right;
     }
 
     .photos{
         margin-top: 200px;
-        text-align: center;
+        margin-right: 60px;
+    }
+    .flex-name{
+        margin-top: 30px;
     }
     .container-img{
         margin-top: -60px;
     }
     #content h3{
-        font-size: 6em;
+        color: rgb(250, 246, 21);
+        font-size: 3.7em;
     }
-    /* #content .projet-one{
-        margin-top: 100px;
-    } */
+    .flex{
+        display: flex;
+        text-align: right;
+    }
     .projet-one-mobile{
         display: none;
     }

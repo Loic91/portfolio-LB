@@ -31,8 +31,8 @@ img {
 
 @media screen and (min-width: 769px){
     .reveal {
-        width: 60%;
-        height: 80%;
+        width: 90%;
+        height: 60%;
         margin-top: 0;
     }
 
