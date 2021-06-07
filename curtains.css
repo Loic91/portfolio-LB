@@ -201,7 +201,55 @@ body::-webkit-scrollbar {
     margin: 10px;
 }
 .email{
-    padding-bottom: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.reseau-date{
+    display: flex;
+    justify-content: center;
+}
+.paragraphe-twitter{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin: 10px;
+}
+.paragraphe-behance{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.back{
+    color: rgb(42, 43, 44);
+    display: flex;
+    justify-content: space-between;
+}
+.paragraphe-date{
+    /* font-family: 'Nanum Gothic', sans-serif; */
+    font-family: "Bore - FREE";
+    font-size: 3.8em;
+    /* text-align: right; */
+}
+.date{
+    margin-right: 20px;
+    margin-top: 30px;
+}
+/* .top{
+    margin-top: 250px;
+} */
+.paragraphe-top{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1em;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.top a{
+    color: rgb(42, 43, 44);
 }
 
 
@@ -280,6 +328,7 @@ body::-webkit-scrollbar {
         margin-left: auto;
     }
     .paragraphe-projet{
+        color: #f1edad;
         font-size: 2.1em;
         width: 800px;
         margin-top: 0px;
@@ -319,6 +368,7 @@ body::-webkit-scrollbar {
         width: 800px;
         margin-top: -100px;
         margin-left: 20px;
+        text-align: left;
         /* margin-left: auto;
         margin-right: auto; */
     }
@@ -327,4 +377,43 @@ body::-webkit-scrollbar {
         margin-top: 50px;
     }
     
+    .reseau-date{
+        display: inline-block;
+        margin-left: 20px;
+    }
+    .paragraphe-twitter{
+        font-family: 'Nanum Gothic', sans-serif;
+        font-size: 1.5em;
+        justify-content: space-between;
+        margin-top: 0px;
+    }
+    .paragraphe-behance{
+        font-family: 'Nanum Gothic', sans-serif;
+        font-size: 1.5em;
+        justify-content: space-between;
+        margin-top: -15px;
+    }
+    .paragraphe-date{
+        font-family: "Bore - FREE";
+        font-size: 25em;
+    }
+
+    .back{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -100px;
+    }
+    .top{
+        margin-top: 250px;
+    }
+    .date{
+        margin-top: 30px;
+    }
+    .paragraphe-top{
+        font-family: 'Nanum Gothic', sans-serif;
+        font-size: 1.5em;
+        justify-content: space-between;
+        margin-top: 150px;
+        margin-left: 20px;
+    }
 }
