@@ -24,7 +24,7 @@ $(function () {
       // else if ($(this).scrollTop() >= 3700 && $(this).scrollTop() <= 4200) {
       //    $(".scroll").css("background", "#00F7ED").css("transition", "1.5s");
       // }
-      else if ($(this).scrollTop() >= 4300 && $(this).scrollTop() <= 4900) {
+      else if ($(this).scrollTop() >= 4200 && $(this).scrollTop() <= 4900) {
          $(".scroll").css("background", "#FF67C5").css("transition", "1.7s");
       }
       // else if ($(this).scrollTop() >= 4000 && $(this).scrollTop() <= 4600) {
