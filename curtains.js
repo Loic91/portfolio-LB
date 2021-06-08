@@ -37,7 +37,10 @@ const scrollFs = `
         }
 
         scrollTextCoords.x = scrollTextCoords.x * 2.0 - 1.0;
-        scrollTextCoords.x *= 1.0 + uScrollEffect * 0.0035 * horizontalStretch * uScrollStrength;
+
+        // !!! scrollTextCoords.x *= 1.0 + uScrollEffect * 0.0035 * horizontalStretch * uScrollStrength;
+        scrollTextCoords.x *= 1.0 + uScrollEffect * 0.0095 * horizontalStretch * uScrollStrength;
+
         scrollTextCoords.x = (scrollTextCoords.x + 1.0) * 0.5;
 
         gl_FragColor = texture2D(uRenderTexture, scrollTextCoords);
@@ -133,7 +136,7 @@ window.addEventListener('load', () => {
                                 name: "uScrollStrength",
                                 type: "1f",
                                 // value: 2.5,
-                                value: 2.5,
+                                value: 3,
                             },
                         }
                     });
@@ -146,7 +149,8 @@ window.addEventListener('load', () => {
                         // clamp delta
                         scroll.delta = Math.max(-30, Math.min(30, scroll.lastValue - scroll.value));
 
-                        scroll.effect = curtains.lerp(scroll.effect, scroll.delta, 0.05);
+                        // scroll.effect = curtains.lerp(scroll.effect, scroll.delta, 0.05);
+                        scroll.effect = curtains.lerp(scroll.effect, scroll.delta, 0.20);
                         scrollPass.uniforms.scrollEffect.value = scroll.effect;
                     });
 
