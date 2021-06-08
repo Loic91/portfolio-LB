@@ -3,14 +3,6 @@
     src: url('./FONTS/Obrazec/Obrazec-2.ttf') format('truetype');
 }
 @font-face{
-    font-family: "Doppelganger"; 
-    src: url('./FONTS/Doppelganger/Doppelganger\ Display.otf') format('opentype');
-}
-@font-face{
-    font-family: "Bigilla"; 
-    src: url('./FONTS/Bigilla/Bigilla-Bold.otf') format('opentype');
-}
-@font-face{
     font-family: "Wayward Sans DCU"; 
     src: url('./FONTS/Wayward\ Sans\ DCU/WaywardSans-Regular.otf') format('opentype');
 }
@@ -21,6 +13,10 @@
 @font-face{
     font-family: "Redwing"; 
     src: url('./FONTS/Redwing/Redwing-Medium.otf') format('opentype');
+}
+@font-face{
+    font-family: "ApexMk3"; 
+    src: url('./FONTS/ApexMk3/Apex\ Mk3-Medium.otf') format('opentype');
 }
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
@@ -77,7 +73,7 @@ body::-webkit-scrollbar {
 }
 #content nav {
     /* color: rgb(143, 0, 0); */
-    color: #f1edad;
+    color: #000000;
     margin: 10px;
     font-size: 1em;
     margin-bottom: 10px;
@@ -90,9 +86,11 @@ body::-webkit-scrollbar {
     /* text-align: center; */
     font-size: 4em;
     text-transform: uppercase;
-    font-family: "Redwing";
-    color: rgb(250, 246, 21);
-    font-weight: 400;
+    /* font-family: "Redwing"; */
+    font-family: "ApexMk3";
+    /* color: rgb(250, 246, 21); */
+    color: #000000;
+    font-weight: bold;
     line-height: 0;
 
     margin-left: 10px;
@@ -108,8 +106,9 @@ body::-webkit-scrollbar {
     justify-content: space-between;
     font-size: 4.73em;
     text-transform: uppercase;
-    font-family: "Redwing";
-    color: rgb(250, 246, 21);
+    /* font-family: "Redwing"; */
+    font-family: "ApexMk3";
+    color: rgb(0, 0, 0);
     font-weight: 400;
     line-height: 0;
 
@@ -118,12 +117,12 @@ body::-webkit-scrollbar {
     /* text-align: center; */
 }
 
+
 #content h3 {
     justify-content: space-between;
     text-transform: uppercase;
-    font-family: "Redwing"; 
-    /* color: rgb(253, 7, 48); */
-    /* color: #f1edad; */
+    /* font-family: "Redwing"; */
+    font-family: "ApexMk3";
     font-weight: 400;
     line-height: 0;
 
@@ -152,7 +151,7 @@ body::-webkit-scrollbar {
         margin-top: -80px;
     }
     .projet-one-mobile{
-        font-size: 6em;
+        font-size: 5.5em;
         /* text-align: center; */
     }
     .top{
@@ -180,6 +179,7 @@ body::-webkit-scrollbar {
 .paragraphe-bio{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 1.5em;
+    color: black;
     /* justify-content: space-between; */
     margin-top: 50px;
     margin: 10px;
@@ -187,6 +187,7 @@ body::-webkit-scrollbar {
 .paragraphe-work{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 1.5em;
+    color: black;
     /* justify-content: space-between; */
     margin-top: 50px;
     margin: 10px;
@@ -287,7 +288,7 @@ body::-webkit-scrollbar {
 }
 .paragraphe-projet{
     font-family: 'Nanum Gothic', sans-serif;
-    color: #0000009f;
+    color: #ffffff;
     font-size: 1.5em;
     /* text-align: center; */
     margin-top: 50px;
@@ -360,7 +361,7 @@ body::-webkit-scrollbar {
     }
     .paragraphe-projet{
         /* color: #f1edad; */
-        color: rgb(67, 67, 68);
+        color: rgb(255, 255, 255);
         font-size: 2.1em;
         width: 800px;
         margin-top: -30px;

@@ -1,13 +1,12 @@
 .scroll{
     width : 100%;
-    height: 500px;
+    height: 100px;
     /* display : flex; */
     justify-content : center;
     align-items : center;
     padding : 0;
     margin : 0;
-    /* background-color : #c0392b; */
-    background-color: rgb(42, 43, 44);
+    /* background-color: rgb(42, 43, 44); */
+    background-color: #EAE5E5;
   }
 
-  
