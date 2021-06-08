@@ -39,7 +39,7 @@ const scrollFs = `
         scrollTextCoords.x = scrollTextCoords.x * 2.0 - 1.0;
 
         // !!! scrollTextCoords.x *= 1.0 + uScrollEffect * 0.0035 * horizontalStretch * uScrollStrength;
-        scrollTextCoords.x *= 1.0 + uScrollEffect * 0.0075 * horizontalStretch * uScrollStrength;
+        scrollTextCoords.x *= 1.0 + uScrollEffect * 0.0055 * horizontalStretch * uScrollStrength;
 
         scrollTextCoords.x = (scrollTextCoords.x + 1.0) * 0.5;
 
